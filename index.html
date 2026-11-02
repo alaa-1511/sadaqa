@@ -3,160 +3,109 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>صدقة جارية | يوسف إبراهيم محمد البحراوي رحمه الله</title>
+  <title>صدقة جارية على روح يوسف إبراهيم محمد البحراوي</title>
   
-  <!-- SEO & Social Sharing Meta Tags (Optimized for WhatsApp, Facebook, Telegram) -->
-  <meta name="description" content="صدقة جارية على روح المغفور له بإذن الله يوسف إبراهيم محمد البحراوي. سبحة إلكترونية، أدعية للميت، أذكار الصباح والمساء، وآيات قرآنية كريمة.">
+  <!-- SEO & Social Sharing Meta Tags -->
+  <meta name="description" content="صدقة جارية على روح المغفور له بإذن الله يوسف إبراهيم محمد البحراوي. سبحة إلكترونية، أدعية للمتوفى، أذكار الصباح والمساء، وآيات قرآنية كريمة.">
   <meta name="keywords" content="صدقة جارية, يوسف البحراوي, سبحة إلكترونية, تسبيح, أذكار, دعاء للميت, آية الكرسي, سورة الإخلاص">
   <meta name="author" content="عائلة يوسف البحراوي">
-  <meta name="robots" content="index, follow">
 
-  <!-- Open Graph / Facebook / WhatsApp -->
+  <!-- Open Graph / WhatsApp Meta Tags -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="صدقة جارية على روح يوسف إبراهيم محمد البحراوي رحمه الله">
   <meta property="og:description" content="شاركونا الأجر في التسبيح والدعاء للوالد يوسف إبراهيم محمد البحراوي رحمه الله وغفر له وأسكنه فسيح جناته.">
   <meta property="og:locale" content="ar_AR">
   <meta property="og:site_name" content="صدقة جارية">
 
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="صدقة جارية على روح يوسف إبراهيم محمد البحراوي">
-  <meta name="twitter:description" content="سبحة إلكترونية وأدعية وأذكار صدقة جارية على روح الوالد يوسف إبراهيم محمد البحراوي رحمه الله.">
+  <!-- Theme Color for Mobile Status Bar -->
+  <meta name="theme-color" content="#061d15" id="theme-color-meta">
+  <meta name="color-scheme" content="dark light">
 
-  <!-- Theme Color for Mobile Browsers -->
-  <meta name="theme-color" content="#0e382b" id="theme-color-meta">
-  <meta name="color-scheme" content="light dark">
-
-  <!-- Favicon: Golden Crescent & Star Inline SVG -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f3e2e'/%3E%3Cpath d='M39 16 A 18 18 0 1 0 39 48 A 14 14 0 1 1 39 16 Z' fill='%23dfba73'/%3E%3Cpolygon points='42,22 44,27 49,27 45,30 47,35 42,32 37,35 39,30 35,27 40,27' fill='%23f5d591'/%3E%3C/svg%3E">
+  <!-- Favicon: Inline Gold Crescent SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23061d15'/%3E%3Cpath d='M39 16 A 18 18 0 1 0 39 48 A 14 14 0 1 1 39 16 Z' fill='%23d4a359'/%3E%3Cpolygon points='42,22 44,27 49,27 45,30 47,35 42,32 37,35 39,30 35,27 40,27' fill='%23fce2a6'/%3E%3C/svg%3E">
 
   <!-- Google Fonts: Amiri & Cairo -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <style>
-    /* CSS Variables & Theme Definition */
+    /* ==========================================================================
+       EXACT COLOR PALETTE MATCHING THE SCREENSHOT
+       Deep rich forest emerald background (#061d15), matte emerald cards (#0d2b22),
+       mint green subtitle (#3ea884), gold accents (#d4a359), white typography.
+       ========================================================================== */
     :root {
-      /* Light Palette: Warm cream background, deep emerald & rich gold accents */
-      --bg-base: #f9f6f0;
-      --bg-surface: #ffffff;
-      --bg-surface-elevated: #ffffff;
-      --bg-surface-soft: #f4efe4;
-      --text-primary: #192b23;
-      --text-secondary: #4a5c53;
-      --text-muted: #72847b;
+      /* Signature Dark Emerald Theme (Default, exactly matching the screenshot) */
+      --bg-base: #061d15;
+      --bg-card: #0d2b22;
+      --bg-card-subtle: #08221a;
+      --bg-card-hover: #10362b;
       
-      --emerald-dark: #09261c;
-      --emerald-primary: #0f3e2e;
-      --emerald-light: #1b5e47;
-      --emerald-gradient: linear-gradient(145deg, #164f3b 0%, #0c3325 100%);
-      --emerald-glow: rgba(15, 62, 46, 0.25);
+      --text-white: #ffffff;
+      --text-cream: #f4ede0;
+      --text-mint: #3ea884;
+      --text-mint-glow: #72dfb8;
+      --text-muted: #8ca399;
+      --text-faint: #597368;
+
+      --gold-primary: #d4a359;
+      --gold-light: #f5d18b;
+      --gold-glow: rgba(212, 163, 89, 0.25);
+      --gold-line: rgba(212, 163, 89, 0.45);
+      --gold-gradient: linear-gradient(135deg, #e4be72 0%, #d4a359 50%, #b88628 100%);
+
+      --emerald-active-chip: #0f855e;
+      --emerald-inactive-chip: #08221a;
+      --emerald-btn-gradient: linear-gradient(145deg, #125e45 0%, #083325 100%);
+      --emerald-btn-glow: rgba(15, 133, 94, 0.35);
+
+      --card-border: rgba(255, 255, 255, 0.08);
+      --chip-border: rgba(255, 255, 255, 0.12);
       
-      --gold-primary: #b88b39;
-      --gold-light: #d8aa58;
-      --gold-glow: #f6d896;
-      --gold-border: rgba(184, 139, 57, 0.35);
-      --gold-surface: rgba(216, 170, 88, 0.12);
-      --gold-gradient: linear-gradient(135deg, #dfba73 0%, #b88b39 50%, #e8ca8a 100%);
-
-      --border-color: rgba(184, 139, 57, 0.22);
-      --card-shadow: 0 4px 20px -2px rgba(15, 62, 46, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
-      --card-shadow-hover: 0 10px 25px -4px rgba(15, 62, 46, 0.14), 0 4px 10px -2px rgba(0, 0, 0, 0.06);
-
-      --radius-sm: 8px;
-      --radius-md: 14px;
-      --radius-lg: 20px;
-      --radius-pill: 9999px;
-
       --font-body: 'Cairo', system-ui, -apple-system, sans-serif;
       --font-quran: 'Amiri', 'Traditional Arabic', serif;
-      --transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+      
+      --radius-sm: 10px;
+      --radius-md: 18px;
+      --radius-lg: 24px;
+      --radius-pill: 9999px;
+
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     }
 
-    /* Dark Mode Palette: Deep nocturnal emerald & warm gold */
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) {
-        --bg-base: #081813;
-        --bg-surface: #0e271f;
-        --bg-surface-elevated: #14362b;
-        --bg-surface-soft: #0a1f18;
-        --text-primary: #f5f2ea;
-        --text-secondary: #c7d2cb;
-        --text-muted: #8fa096;
-
-        --emerald-dark: #05100c;
-        --emerald-primary: #154534;
-        --emerald-light: #20624a;
-        --emerald-gradient: linear-gradient(145deg, #1b533f 0%, #0d2b20 100%);
-        --emerald-glow: rgba(32, 98, 74, 0.35);
-
-        --gold-primary: #d4a754;
-        --gold-light: #ebd08d;
-        --gold-glow: #fbf0cb;
-        --gold-border: rgba(212, 167, 84, 0.38);
-        --gold-surface: rgba(212, 167, 84, 0.15);
-
-        --border-color: rgba(212, 167, 84, 0.25);
-        --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
-        --card-shadow-hover: 0 8px 30px -4px rgba(0, 0, 0, 0.65);
-      }
-    }
-
-    /* Manual Dark Mode Override */
-    [data-theme="dark"] {
-      --bg-base: #081813;
-      --bg-surface: #0e271f;
-      --bg-surface-elevated: #14362b;
-      --bg-surface-soft: #0a1f18;
-      --text-primary: #f5f2ea;
-      --text-secondary: #c7d2cb;
-      --text-muted: #8fa096;
-
-      --emerald-dark: #05100c;
-      --emerald-primary: #154534;
-      --emerald-light: #20624a;
-      --emerald-gradient: linear-gradient(145deg, #1b533f 0%, #0d2b20 100%);
-      --emerald-glow: rgba(32, 98, 74, 0.35);
-
-      --gold-primary: #d4a754;
-      --gold-light: #ebd08d;
-      --gold-glow: #fbf0cb;
-      --gold-border: rgba(212, 167, 84, 0.38);
-      --gold-surface: rgba(212, 167, 84, 0.15);
-
-      --border-color: rgba(212, 167, 84, 0.25);
-      --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
-      --card-shadow-hover: 0 8px 30px -4px rgba(0, 0, 0, 0.65);
-    }
-
+    /* Light Theme Variant (accessible via top-bar toggle) */
     [data-theme="light"] {
-      --bg-base: #f9f6f0;
-      --bg-surface: #ffffff;
-      --bg-surface-elevated: #ffffff;
-      --bg-surface-soft: #f4efe4;
-      --text-primary: #192b23;
-      --text-secondary: #4a5c53;
-      --text-muted: #72847b;
+      --bg-base: #f7f4ec;
+      --bg-card: #ffffff;
+      --bg-card-subtle: #f0eadc;
+      --bg-card-hover: #ffffff;
 
-      --emerald-dark: #09261c;
-      --emerald-primary: #0f3e2e;
-      --emerald-light: #1b5e47;
-      --emerald-gradient: linear-gradient(145deg, #164f3b 0%, #0c3325 100%);
-      --emerald-glow: rgba(15, 62, 46, 0.25);
+      --text-white: #0a261c;
+      --text-cream: #143529;
+      --text-mint: #0f7553;
+      --text-mint-glow: #0d6144;
+      --text-muted: #4e6e61;
+      --text-faint: #759185;
 
-      --gold-primary: #b88b39;
-      --gold-light: #d8aa58;
-      --gold-glow: #f6d896;
-      --gold-border: rgba(184, 139, 57, 0.35);
-      --gold-surface: rgba(216, 170, 88, 0.12);
+      --gold-primary: #b07e2c;
+      --gold-light: #d8aa55;
+      --gold-glow: rgba(176, 126, 44, 0.18);
+      --gold-line: rgba(176, 126, 44, 0.35);
+      --gold-gradient: linear-gradient(135deg, #d8aa55 0%, #b07e2c 100%);
 
-      --border-color: rgba(184, 139, 57, 0.22);
-      --card-shadow: 0 4px 20px -2px rgba(15, 62, 46, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
-      --card-shadow-hover: 0 10px 25px -4px rgba(15, 62, 46, 0.14), 0 4px 10px -2px rgba(0, 0, 0, 0.06);
+      --emerald-active-chip: #0e5b42;
+      --emerald-inactive-chip: #f3efe5;
+      --emerald-btn-gradient: linear-gradient(145deg, #136048 0%, #083829 100%);
+      --emerald-btn-glow: rgba(14, 91, 66, 0.25);
+
+      --card-border: rgba(176, 126, 44, 0.2);
+      --chip-border: rgba(0, 0, 0, 0.08);
     }
 
-    /* Base Reset & Core Styles */
+    /* ==========================================================================
+       RESET & BASE STYLES
+       ========================================================================== */
     *, *::before, *::after {
       box-sizing: border-box;
       margin: 0;
@@ -171,408 +120,301 @@
 
     body {
       background-color: var(--bg-base);
-      color: var(--text-primary);
+      color: var(--text-cream);
       font-family: var(--font-body);
       line-height: 1.7;
       direction: rtl;
       text-align: right;
+      min-height: 100vh;
+      overflow-x: hidden;
       padding-top: env(safe-area-inset-top, 0);
       padding-bottom: env(safe-area-inset-bottom, 0);
       padding-left: env(safe-area-inset-left, 0);
       padding-right: env(safe-area-inset-right, 0);
-      min-height: 100vh;
-      overflow-x: hidden;
       transition: background-color 0.3s ease, color 0.3s ease;
     }
 
-    /* Decorative Islamic Geometric Header Background */
-    .site-bg-pattern {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 380px;
-      background: radial-gradient(circle at 50% -20%, var(--gold-surface) 0%, transparent 70%);
-      pointer-events: none;
-      z-index: 0;
-      opacity: 0.8;
-    }
-
-    /* Container */
-    .container {
+    /* Outer Wrapper */
+    .page-wrap {
       width: 100%;
-      max-width: 720px;
+      max-width: 660px;
       margin: 0 auto;
-      padding: 1.25rem 1rem 3rem 1rem;
-      position: relative;
-      z-index: 1;
+      padding: 1.25rem 1.15rem 4rem;
     }
 
-    /* Top Floating Controls (Theme Toggle & Audio Toggle) */
-    .top-controls {
+    /* Top Utility Bar */
+    .top-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 1.25rem;
+      margin-bottom: 2rem;
     }
 
-    .pill-badge {
+    .status-badge {
       display: inline-flex;
       align-items: center;
-      gap: 0.4rem;
-      padding: 0.35rem 0.85rem;
-      background: var(--gold-surface);
-      border: 1px solid var(--gold-border);
+      gap: 0.5rem;
+      padding: 0.35rem 0.95rem;
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-pill);
-      color: var(--gold-primary);
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       font-weight: 600;
+      color: var(--gold-primary);
     }
 
-    .action-icons-group {
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    .top-actions {
       display: flex;
       align-items: center;
       gap: 0.5rem;
     }
 
-    .icon-btn {
-      width: 44px;
-      height: 44px;
+    .icon-button {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-pill);
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-pill);
-      color: var(--text-secondary);
       cursor: pointer;
-      box-shadow: var(--card-shadow);
       transition: var(--transition);
     }
 
-    .icon-btn:hover {
+    .icon-button:hover {
       color: var(--gold-primary);
       border-color: var(--gold-primary);
       transform: translateY(-1px);
     }
 
-    .icon-btn:active {
-      transform: scale(0.94);
+    .icon-button svg {
+      width: 18px;
+      height: 18px;
     }
 
-    .icon-btn svg {
-      width: 20px;
-      height: 20px;
-      stroke-width: 2;
-    }
-
-    /* Header Section (Dedication) */
-    .dedication-header {
+    /* ==========================================================================
+       HEADER (EXACT SCREENSHOT LAYOUT)
+       ========================================================================== */
+    .hero-header {
       text-align: center;
-      padding: 2rem 1.25rem 2.25rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--gold-border);
-      border-radius: var(--radius-lg);
-      box-shadow: var(--card-shadow);
-      position: relative;
-      overflow: hidden;
-      margin-bottom: 2rem;
+      margin-bottom: 2.25rem;
     }
 
-    .dedication-header::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: var(--gold-gradient);
-    }
-
-    .basmala {
-      font-family: var(--font-quran);
-      font-size: 1.85rem;
-      color: var(--gold-primary);
-      margin-bottom: 0.8rem;
-      letter-spacing: 0.5px;
-      line-height: 1.4;
-    }
-
-    .sadaqa-tag {
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--text-secondary);
-      margin-bottom: 0.5rem;
-      display: inline-block;
-    }
-
-    .deceased-name {
-      font-family: var(--font-quran);
-      font-size: 2.15rem;
-      font-weight: 700;
-      color: var(--emerald-primary);
-      margin: 0.3rem 0 0.8rem;
-      line-height: 1.4;
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    }
-
-    [data-theme="dark"] .deceased-name {
-      color: var(--gold-light);
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) .deceased-name {
-        color: var(--gold-light);
-      }
-    }
-
-    .prayer-sentence {
-      font-size: 1rem;
-      color: var(--text-secondary);
-      font-weight: 500;
-      margin-bottom: 1.2rem;
-    }
-
-    /* Gold Ornamental Divider */
-    .ornamental-divider {
+    /* Basmala Calligraphy with flanking gold lines */
+    .basmala-flanked {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 0.75rem;
-      margin: 1.25rem auto 0.5rem;
-      width: 80%;
-      max-width: 320px;
+      gap: 1.25rem;
+      margin: 0 auto 1.5rem;
+      width: 100%;
+      max-width: 480px;
     }
 
-    .divider-line {
+    .flank-line {
       flex: 1;
       height: 1px;
-      background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+      background: linear-gradient(90deg, transparent, var(--gold-line), transparent);
     }
 
-    .divider-symbol {
-      color: var(--gold-primary);
-      font-size: 1.1rem;
-      line-height: 1;
-      display: inline-flex;
-    }
-
-    /* Main Sections Layout */
-    .section-card {
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-lg);
-      padding: 1.75rem 1.25rem;
-      margin-bottom: 1.75rem;
-      box-shadow: var(--card-shadow);
-      transition: var(--transition);
-    }
-
-    .section-card:hover {
-      border-color: var(--gold-border);
-      box-shadow: var(--card-shadow-hover);
-    }
-
-    .section-title-wrap {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      margin-bottom: 1.35rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px dashed var(--gold-border);
-    }
-
-    .section-icon {
-      color: var(--gold-primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .section-title {
+    .basmala-calligraphy {
       font-family: var(--font-quran);
-      font-size: 1.45rem;
-      font-weight: 700;
-      color: var(--text-primary);
+      font-size: 2.15rem;
+      color: var(--gold-primary);
+      line-height: 1.1;
+      white-space: nowrap;
+      user-select: none;
+      letter-spacing: 0.5px;
     }
 
-    /* Tasbeeh Section */
-    .tasbeeh-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    /* Dhikr Chips Horizontal Scroller */
-    .chips-label {
-      font-size: 0.9rem;
-      color: var(--text-secondary);
-      margin-bottom: 0.6rem;
+    /* Subtitle in Mint Green */
+    .sadaqa-subheading {
+      color: var(--text-mint);
+      font-size: 1.15rem;
       font-weight: 600;
-      align-self: flex-start;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.2px;
     }
 
-    .chips-scroll {
+    /* Father's Name in Bold Crisp White */
+    .father-name {
+      font-family: var(--font-quran);
+      font-size: 2.65rem;
+      font-weight: 700;
+      color: var(--text-white);
+      line-height: 1.25;
+      margin: 0 0 0.85rem;
+      letter-spacing: -0.5px;
+    }
+
+    /* Soft Prayer */
+    .rahmah-subtext {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    /* ==========================================================================
+       SECTION 1: ELECTRONIC TASBEEH CARD (MATCHING SCREENSHOT)
+       ========================================================================== */
+    .tasbeeh-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem 1.35rem 2.25rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.35);
+      position: relative;
+    }
+
+    .card-title-gold {
+      color: var(--gold-primary);
+      font-family: var(--font-quran);
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1.65rem;
+      letter-spacing: 0.3px;
+    }
+
+    /* Chips Container: Centered Wrapped Pills (exact look from screenshot) */
+    .chips-flex-wrap {
       display: flex;
-      gap: 0.5rem;
-      overflow-x: auto;
-      width: 100%;
-      padding: 0.35rem 0.25rem 0.85rem;
-      scrollbar-width: thin;
-      scrollbar-color: var(--gold-primary) transparent;
-      -webkit-overflow-scrolling: touch;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 2rem;
+      max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .chips-scroll::-webkit-scrollbar {
-      height: 4px;
-    }
-
-    .chips-scroll::-webkit-scrollbar-thumb {
-      background: var(--gold-primary);
-      border-radius: 4px;
-    }
-
-    .dhikr-chip {
-      flex: 0 0 auto;
-      padding: 0.55rem 1rem;
-      background: var(--bg-surface-soft);
-      border: 1px solid var(--border-color);
+    .dhikr-chip-item {
+      padding: 0.45rem 1.05rem;
       border-radius: var(--radius-pill);
+      background-color: var(--emerald-inactive-chip);
+      border: 1px solid var(--chip-border);
+      color: var(--text-cream);
       font-family: var(--font-body);
       font-size: 0.95rem;
-      color: var(--text-secondary);
+      font-weight: 600;
       cursor: pointer;
       transition: var(--transition);
       white-space: nowrap;
       user-select: none;
     }
 
-    .dhikr-chip:hover {
-      border-color: var(--gold-primary);
-      color: var(--gold-primary);
-    }
-
-    .dhikr-chip.active {
-      background: var(--emerald-primary);
-      border-color: var(--gold-light);
+    .dhikr-chip-item:hover {
+      border-color: var(--text-mint);
       color: #ffffff;
-      font-weight: 600;
-      box-shadow: 0 3px 10px rgba(15, 62, 46, 0.25);
     }
 
-    [data-theme="dark"] .dhikr-chip.active {
-      background: var(--emerald-light);
-      color: var(--gold-glow);
+    /* Active Selected Chip (bright emerald green fill, white text) */
+    .dhikr-chip-item.active {
+      background-color: var(--emerald-active-chip);
+      border-color: var(--emerald-active-chip);
+      color: #ffffff;
+      font-weight: 700;
+      box-shadow: 0 4px 14px rgba(15, 133, 94, 0.4);
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) .dhikr-chip.active {
-        background: var(--emerald-light);
-        color: var(--gold-glow);
-      }
-    }
-
-    /* Active Dhikr Display Card */
-    .current-dhikr-display {
-      width: 100%;
-      margin: 1.25rem 0 1.5rem;
-      padding: 1.25rem 1rem;
-      background: var(--bg-surface-soft);
-      border-radius: var(--radius-md);
-      border: 1px solid var(--gold-border);
-    }
-
-    .current-dhikr-text {
+    /* Large Selected Dhikr Display (in soft mint calligraphic text) */
+    .active-dhikr-large {
       font-family: var(--font-quran);
-      font-size: 1.85rem;
-      line-height: 1.5;
-      color: var(--text-primary);
-      min-height: 3.2rem;
+      font-size: 2.35rem;
+      font-weight: 700;
+      color: var(--text-mint-glow);
+      min-height: 4.2rem;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-bottom: 1.25rem;
+      line-height: 1.35;
+      text-shadow: 0 0 25px rgba(114, 223, 184, 0.2);
     }
 
-    .counter-display-badge {
-      display: inline-flex;
-      align-items: baseline;
-      gap: 0.4rem;
-      margin-top: 0.5rem;
-      color: var(--gold-primary);
-      font-weight: 700;
-      font-size: 1.1rem;
-    }
-
-    .counter-number {
+    /* Large Counter Number in the Center */
+    .counter-hero-number {
       font-family: var(--font-quran);
-      font-size: 2.6rem;
+      font-size: 4.5rem;
       font-weight: 700;
-      color: var(--gold-primary);
+      color: var(--text-white);
       line-height: 1;
-      min-width: 60px;
+      margin-bottom: 1.85rem;
+      letter-spacing: 1px;
+      user-select: none;
+      transition: transform 0.1s ease;
     }
 
-    /* Big Round Tasbeeh Button */
-    .tasbeeh-btn-wrap {
-      position: relative;
-      margin: 1rem auto 1.5rem;
+    /* Big Round Tap Button (190px, gold ring, emerald gradient) */
+    .tap-btn-wrap {
+      margin: 0 auto 1.85rem;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
     }
 
-    .tasbeeh-btn {
+    .tap-btn-master {
       width: 190px;
       height: 190px;
       border-radius: 50%;
-      background: var(--emerald-gradient);
-      border: 4px solid var(--gold-light);
-      outline: 6px solid var(--gold-surface);
+      background: var(--emerald-btn-gradient);
+      border: 4px solid var(--gold-primary);
+      outline: 5px solid rgba(212, 163, 89, 0.2);
       color: #ffffff;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 0.3rem;
+      gap: 0.25rem;
       cursor: pointer;
-      box-shadow: 0 12px 30px -4px var(--emerald-glow), inset 0 2px 12px rgba(255, 255, 255, 0.15);
-      transition: transform 0.12s ease-out, box-shadow 0.12s ease-out;
+      box-shadow: 0 12px 30px -4px var(--emerald-btn-glow), inset 0 2px 14px rgba(255, 255, 255, 0.18);
+      transition: transform 0.12s ease-out, box-shadow 0.12s ease-out, outline-width 0.12s ease;
       user-select: none;
-      -webkit-user-select: none;
       position: relative;
       overflow: hidden;
     }
 
-    .tasbeeh-btn:hover {
-      box-shadow: 0 16px 36px -4px var(--emerald-glow), inset 0 2px 14px rgba(255, 255, 255, 0.2);
+    .tap-btn-master:hover {
+      box-shadow: 0 16px 36px -4px var(--emerald-btn-glow), inset 0 2px 18px rgba(255, 255, 255, 0.25);
     }
 
-    .tasbeeh-btn:active,
-    .tasbeeh-btn.pressed {
+    .tap-btn-master:active,
+    .tap-btn-master.pressed {
       transform: scale(0.93);
-      outline-width: 3px;
-      box-shadow: 0 6px 18px -2px var(--emerald-glow);
+      outline-width: 2px;
+      box-shadow: 0 6px 16px -2px var(--emerald-btn-glow);
     }
 
-    .tasbeeh-btn-label {
+    .tap-btn-text {
       font-family: var(--font-quran);
-      font-size: 2.25rem;
+      font-size: 2.35rem;
       font-weight: 700;
       color: #ffffff;
       line-height: 1;
-      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
     }
 
-    .tasbeeh-btn-sub {
+    .tap-btn-sub {
       font-size: 0.85rem;
       color: var(--gold-light);
-      font-weight: 500;
+      font-weight: 600;
       opacity: 0.95;
     }
 
-    /* Ripple Effect on Click */
-    .tasbeeh-btn .ripple {
+    /* Ripple on tap */
+    .tap-btn-master .ripple {
       position: absolute;
       border-radius: 50%;
       transform: scale(0);
@@ -583,195 +425,246 @@
 
     @keyframes rippleEffect {
       to {
-        transform: scale(4);
+        transform: scale(4.5);
         opacity: 0;
       }
     }
 
-    /* Tasbeeh Stats & Controls */
-    .tasbeeh-controls-row {
+    /* Tasbeeh Stats & Controls Bar */
+    .tasbeeh-footer-bar {
       display: flex;
       align-items: center;
       justify-content: space-between;
       width: 100%;
-      max-width: 420px;
+      max-width: 440px;
+      margin: 0 auto;
       padding: 0.85rem 1.25rem;
-      background: var(--bg-surface-soft);
+      background: var(--bg-card-subtle);
       border-radius: var(--radius-md);
-      border: 1px solid var(--border-color);
+      border: 1px solid var(--card-border);
       gap: 1rem;
     }
 
-    .total-stat {
+    .lifetime-stat {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       text-align: right;
     }
 
-    .stat-label {
+    .lifetime-stat-label {
       font-size: 0.8rem;
       color: var(--text-muted);
       font-weight: 500;
     }
 
-    .stat-value {
+    .lifetime-stat-num {
       font-family: var(--font-quran);
       font-size: 1.45rem;
       font-weight: 700;
-      color: var(--text-primary);
+      color: var(--text-white);
+      line-height: 1.2;
     }
 
-    .btn-secondary {
+    .reset-action-btn {
       display: inline-flex;
       align-items: center;
       gap: 0.4rem;
-      padding: 0.45rem 0.9rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
+      padding: 0.45rem 1rem;
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-pill);
-      color: var(--text-secondary);
+      color: var(--text-muted);
       font-size: 0.85rem;
       font-weight: 600;
       cursor: pointer;
       transition: var(--transition);
-      min-height: 40px;
+      min-height: 38px;
     }
 
-    .btn-secondary:hover {
-      border-color: #d9534f;
-      color: #d9534f;
+    .reset-action-btn:hover {
+      border-color: #ef4444;
+      color: #ef4444;
     }
 
-    .btn-secondary:active {
-      transform: scale(0.96);
+    .reset-action-btn:active {
+      transform: scale(0.95);
     }
 
-    /* Dua for Father Cards */
-    .dua-list {
+    /* ==========================================================================
+       SECTION 2: DUAS FOR THE DECEASED FATHER
+       ========================================================================== */
+    .section-container {
+      background-color: var(--bg-card);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem 1.35rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.25);
+    }
+
+    .section-title-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px dashed var(--card-border);
+    }
+
+    .section-title-wrap h2 {
+      font-family: var(--font-quran);
+      font-size: 1.65rem;
+      font-weight: 700;
+      color: var(--gold-primary);
+    }
+
+    .dua-cards-list {
       display: flex;
       flex-direction: column;
-      gap: 1rem;
+      gap: 1.15rem;
     }
 
-    .dua-card {
-      background: var(--bg-surface-soft);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-md);
-      padding: 1.25rem 1.25rem 1.15rem;
-      position: relative;
-      transition: var(--transition);
+    .dua-card-box {
+      background: var(--bg-card-subtle);
+      border: 1px solid var(--card-border);
       border-right: 4px solid var(--gold-primary);
+      border-radius: var(--radius-md);
+      padding: 1.35rem 1.25rem 1.15rem;
+      transition: var(--transition);
     }
 
-    .dua-card:hover {
+    .dua-card-box:hover {
       border-color: var(--gold-primary);
       transform: translateX(-3px);
     }
 
-    .dua-card-text {
+    .dua-text-content {
       font-family: var(--font-quran);
-      font-size: 1.35rem;
-      line-height: 2;
-      color: var(--text-primary);
+      font-size: 1.38rem;
+      line-height: 2.15;
+      color: var(--text-white);
       margin-bottom: 0.75rem;
+      text-align: justify;
+      text-align-last: right;
     }
 
-    .dua-card-footer {
+    .dua-card-action {
       display: flex;
       justify-content: flex-end;
-      align-items: center;
     }
 
-    .amin-btn {
+    .amin-prayer-btn {
       display: inline-flex;
       align-items: center;
-      gap: 0.35rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--gold-border);
+      gap: 0.4rem;
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-pill);
-      padding: 0.3rem 0.85rem;
+      padding: 0.35rem 0.95rem;
       font-size: 0.85rem;
+      font-weight: 600;
       color: var(--gold-primary);
       cursor: pointer;
       transition: var(--transition);
       min-height: 36px;
-      font-family: var(--font-body);
-      font-weight: 600;
     }
 
-    .amin-btn:hover {
-      background: var(--gold-surface);
-    }
-
-    .amin-btn.hearted {
-      background: var(--gold-primary);
-      color: #ffffff;
+    .amin-prayer-btn:hover {
+      background: var(--bg-card-hover);
       border-color: var(--gold-primary);
     }
 
-    /* Adhkar Section */
-    .adhkar-list {
-      display: flex;
-      flex-direction: column;
-      gap: 1.1rem;
+    .amin-prayer-btn.hearted {
+      background: var(--gold-primary);
+      color: #061d15;
+      font-weight: 700;
+      border-color: var(--gold-primary);
     }
 
-    .adhkar-card {
-      background: var(--bg-surface-soft);
-      border: 1px solid var(--border-color);
+    /* ==========================================================================
+       SECTION 3: ADHKAR (MORNING & EVENING)
+       ========================================================================== */
+    .adhkar-cards-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .adhkar-card-box {
+      background: var(--bg-card-subtle);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-md);
-      padding: 1.25rem;
+      padding: 1.35rem;
       transition: var(--transition);
     }
 
-    .adhkar-card:hover {
-      border-color: var(--gold-border);
+    .adhkar-card-box:hover {
+      border-color: var(--card-border);
     }
 
-    .adhkar-header-row {
+    .adhkar-top-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 0.85rem;
     }
 
-    .repeat-badge {
+    .repeat-tag {
       display: inline-flex;
       align-items: center;
-      gap: 0.3rem;
-      background: var(--gold-surface);
-      border: 1px solid var(--gold-border);
+      gap: 0.35rem;
+      background: rgba(212, 163, 89, 0.12);
+      border: 1px solid rgba(212, 163, 89, 0.3);
       color: var(--gold-primary);
-      padding: 0.25rem 0.75rem;
+      padding: 0.25rem 0.8rem;
       border-radius: var(--radius-pill);
-      font-size: 0.8rem;
-      font-weight: 600;
+      font-size: 0.82rem;
+      font-weight: 700;
     }
 
-    .adhkar-text {
+    .adhkar-verse-text {
       font-family: var(--font-quran);
-      font-size: 1.35rem;
-      line-height: 2;
-      color: var(--text-primary);
-      margin-bottom: 1rem;
+      font-size: 1.38rem;
+      line-height: 2.15;
+      color: var(--text-white);
+      margin-bottom: 1.15rem;
+      text-align: justify;
+      text-align-last: right;
     }
 
-    .adhkar-interactive-row {
+    .adhkar-bottom-row {
       display: flex;
       align-items: center;
-      justify-content: flex-end;
-      gap: 0.75rem;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
-    .adhkar-count-btn {
+    .adhkar-bar-track {
+      flex: 1;
+      height: 6px;
+      background: var(--bg-base);
+      border-radius: var(--radius-pill);
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+
+    .adhkar-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: var(--gold-gradient);
+      border-radius: var(--radius-pill);
+      transition: width 0.25s ease;
+    }
+
+    .adhkar-tap-counter {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       gap: 0.4rem;
-      padding: 0.4rem 1.1rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--gold-border);
+      padding: 0.45rem 1.15rem;
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-pill);
       color: var(--gold-primary);
       font-weight: 700;
@@ -781,216 +674,207 @@
       min-height: 40px;
     }
 
-    .adhkar-count-btn:active {
+    .adhkar-tap-counter:active {
       transform: scale(0.95);
     }
 
-    .adhkar-count-btn.done {
-      background: var(--emerald-primary);
+    .adhkar-tap-counter.done {
+      background: var(--emerald-active-chip);
       color: #ffffff;
-      border-color: var(--emerald-primary);
+      border-color: var(--emerald-active-chip);
     }
 
-    /* Quran Verses Section */
-    .quran-verse-card {
-      background: var(--bg-surface-soft);
-      border: 1px solid var(--gold-border);
+    /* ==========================================================================
+       SECTION 4: QURANIC VERSES (UTHMANI TEXT)
+       ========================================================================== */
+    .mushaf-styled-card {
+      background: var(--bg-card-subtle);
+      border: 1px solid rgba(212, 163, 89, 0.3);
       border-radius: var(--radius-md);
-      padding: 1.65rem 1.35rem;
+      padding: 2rem 1.45rem;
       margin-bottom: 1.5rem;
       text-align: center;
       position: relative;
     }
 
-    .quran-badge {
-      display: inline-block;
-      margin-bottom: 1rem;
-      padding: 0.35rem 1rem;
-      background: var(--gold-surface);
-      border: 1px solid var(--gold-border);
+    .surah-ornament-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.35rem 1.25rem;
+      background: rgba(212, 163, 89, 0.12);
+      border: 1px solid rgba(212, 163, 89, 0.35);
       border-radius: var(--radius-pill);
-      font-size: 0.9rem;
-      font-weight: 700;
       color: var(--gold-primary);
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 1.25rem;
     }
 
-    .quran-verse-text {
+    .quran-ayahs-body {
       font-family: var(--font-quran);
-      font-size: 1.45rem;
-      line-height: 2.3;
-      color: var(--text-primary);
+      font-size: 1.55rem;
+      line-height: 2.35;
+      color: var(--text-white);
       text-align: justify;
       text-align-last: center;
       direction: rtl;
     }
 
-    .ayah-end {
+    .ayah-ornament-num {
       display: inline-block;
-      margin: 0 0.3rem;
+      margin: 0 0.35rem;
       color: var(--gold-primary);
-      font-weight: bold;
-      font-size: 1.15rem;
+      font-weight: 700;
+      font-size: 1.2rem;
     }
 
-    /* Share Section & Action Button */
-    .share-section-card {
-      text-align: center;
-      background: linear-gradient(180deg, var(--bg-surface) 0%, var(--bg-surface-soft) 100%);
-      border: 1px solid var(--gold-border);
+    /* ==========================================================================
+       SECTION 5: SHARE BUTTON
+       ========================================================================== */
+    .share-container-card {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-lg);
-      padding: 1.75rem 1.25rem;
+      padding: 2rem 1.5rem;
+      text-align: center;
       margin-bottom: 2rem;
-      box-shadow: var(--card-shadow);
+      box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.25);
     }
 
-    .share-desc {
+    .share-desc-text {
       font-size: 1rem;
-      color: var(--text-secondary);
-      margin-bottom: 1.25rem;
-      line-height: 1.7;
+      color: var(--text-muted);
+      line-height: 1.8;
+      max-width: 500px;
+      margin: 0 auto 1.5rem;
     }
 
-    .share-btn {
+    .share-submit-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 0.6rem;
-      padding: 0.85rem 2rem;
+      gap: 0.65rem;
+      padding: 0.85rem 2.25rem;
       background: var(--gold-gradient);
-      color: #0d271f;
+      color: #061d15;
       border: none;
       border-radius: var(--radius-pill);
       font-family: var(--font-body);
       font-size: 1.05rem;
-      font-weight: 700;
+      font-weight: 800;
       cursor: pointer;
-      box-shadow: 0 6px 20px rgba(184, 139, 57, 0.35);
+      box-shadow: 0 6px 20px rgba(212, 163, 89, 0.35);
       transition: var(--transition);
       min-height: 48px;
     }
 
-    .share-btn:hover {
-      box-shadow: 0 8px 25px rgba(184, 139, 57, 0.45);
+    .share-submit-btn:hover {
+      box-shadow: 0 8px 25px rgba(212, 163, 89, 0.45);
       transform: translateY(-2px);
     }
 
-    .share-btn:active {
+    .share-submit-btn:active {
       transform: scale(0.96);
     }
 
-    .share-btn svg {
+    .share-submit-btn svg {
       width: 20px;
       height: 20px;
     }
 
-    /* Toast Notification for Clipboard Copy */
-    .toast-notice {
-      position: fixed;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%) translateY(100px);
-      background: var(--emerald-primary);
-      color: #ffffff;
-      padding: 0.85rem 1.5rem;
-      border-radius: var(--radius-pill);
-      border: 1px solid var(--gold-light);
-      font-size: 0.95rem;
-      font-weight: 600;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-      z-index: 9999;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.35s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-      text-align: center;
-      max-width: 90vw;
-      white-space: nowrap;
-    }
-
-    .toast-notice.show {
-      transform: translateX(-50%) translateY(0);
-      opacity: 1;
-      visibility: visible;
-    }
-
-    /* Footer Section */
-    .site-footer {
-      text-align: center;
-      padding: 2.25rem 1.25rem;
-      background: var(--bg-surface);
-      border: 1px solid var(--border-color);
+    /* ==========================================================================
+       SECTION 6: FOOTER
+       ========================================================================== */
+    .footer-card {
+      background: var(--bg-card);
+      border: 1px solid var(--card-border);
       border-radius: var(--radius-lg);
-      margin-top: 1rem;
+      padding: 2.25rem 1.5rem;
+      text-align: center;
     }
 
-    .hadith-quote {
+    .hadith-quote-box {
       font-family: var(--font-quran);
-      font-size: 1.25rem;
-      line-height: 2;
-      color: var(--text-primary);
-      margin-bottom: 1.25rem;
-      padding: 0 0.5rem;
+      font-size: 1.35rem;
+      line-height: 2.15;
+      color: var(--text-white);
+      margin-bottom: 1.35rem;
     }
 
-    .hadith-quote mark {
+    .hadith-quote-box mark {
       background: transparent;
       color: var(--gold-primary);
       font-weight: 700;
     }
 
-    .footer-final-dua {
+    .closing-dua {
       font-family: var(--font-quran);
-      font-size: 1.35rem;
+      font-size: 1.45rem;
       font-weight: 700;
       color: var(--gold-primary);
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
     }
 
-    .footer-closing {
-      font-size: 0.85rem;
-      color: var(--text-muted);
+    .fatiha-subtext {
+      font-size: 0.88rem;
+      color: var(--text-faint);
     }
 
-    /* Accessibility Focus Outline */
-    button:focus-visible,
-    a:focus-visible {
-      outline: 3px solid var(--gold-primary);
-      outline-offset: 3px;
+    /* ==========================================================================
+       TOAST NOTICE
+       ========================================================================== */
+    .toast-pill {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--emerald-active-chip);
+      color: #ffffff;
+      padding: 0.85rem 1.75rem;
+      border-radius: var(--radius-pill);
+      border: 1px solid var(--gold-light);
+      font-size: 0.95rem;
+      font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      z-index: 9999;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      text-align: center;
+      max-width: 90vw;
+      white-space: nowrap;
     }
 
-    /* Animations */
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: translateY(0); }
+    .toast-pill.visible {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+      visibility: visible;
     }
 
-    .fade-in {
-      animation: fadeIn 0.4s ease-out forwards;
-    }
-
-    /* Responsive adjustments for 360px width */
-    @media (max-width: 400px) {
-      .container {
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
+    /* Responsive */
+    @media (max-width: 420px) {
+      .page-wrap {
+        padding-left: 0.85rem;
+        padding-right: 0.85rem;
       }
-      .dedication-header {
-        padding: 1.5rem 0.85rem 1.75rem;
+      .father-name {
+        font-size: 2.15rem;
       }
-      .deceased-name {
-        font-size: 1.85rem;
+      .basmala-calligraphy {
+        font-size: 1.8rem;
       }
-      .tasbeeh-btn {
+      .tap-btn-master {
         width: 175px;
         height: 175px;
       }
-      .tasbeeh-btn-label {
-        font-size: 2rem;
+      .tap-btn-text {
+        font-size: 2.1rem;
       }
-      .quran-verse-text {
-        font-size: 1.3rem;
-        line-height: 2.1;
+      .counter-hero-number {
+        font-size: 3.8rem;
       }
-      .toast-notice {
+      .toast-pill {
         white-space: normal;
         border-radius: var(--radius-md);
       }
@@ -999,103 +883,94 @@
 </head>
 <body>
 
-  <!-- Subtle Islamic Background Glow -->
-  <div class="site-bg-pattern" aria-hidden="true"></div>
+  <main class="page-wrap">
 
-  <main class="container">
-    
-    <!-- Top Floating Bar: Status and Controls -->
-    <header class="top-controls" aria-label="أدوات التحكم">
-      <div class="pill-badge">
-        <span aria-hidden="true">✦</span>
+    <!-- Top Utility Bar: Sadaqa Indicator & Theme/Audio Controls -->
+    <header class="top-bar" aria-label="أدوات الصفحة">
+      <div class="status-badge">
+        <span class="status-dot" aria-hidden="true"></span>
         <span>صدقة جارية مستمرة</span>
       </div>
 
-      <div class="action-icons-group">
-        <!-- Audio Feedback Toggle Button -->
-        <button class="icon-btn" id="audio-toggle-btn" aria-label="تفعيل أو كتم الصوت" title="صوت التسبيح">
+      <div class="top-actions">
+        <!-- Audio Tap Toggle -->
+        <button class="icon-button" id="audio-toggle-btn" aria-label="صوت التسبيح" title="تفعيل أو كتم صوت النقر">
           <svg id="audio-icon-on" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072M18.364 5.636a9 9 0 010 12.728M11 5L6 9H2v6h4l5 4V5z" />
           </svg>
           <svg id="audio-icon-off" style="display:none;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
-            <path stroke-linecap="round" stroke-linejoin="round" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" />
           </svg>
         </button>
 
-        <!-- Dark/Light Theme Toggle Button -->
-        <button class="icon-btn" id="theme-toggle-btn" aria-label="تبديل المظهر الليلي والنهاري" title="تبديل المظهر">
-          <!-- Sun Icon (shown in dark mode) -->
+        <!-- Theme Toggle (Dark/Light) -->
+        <button class="icon-button" id="theme-toggle-btn" aria-label="تبديل المظهر" title="تبديل المظهر النهاري والليلي">
           <svg id="theme-icon-sun" style="display:none;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
           </svg>
-          <!-- Moon Icon (shown in light mode) -->
           <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
           </svg>
         </button>
       </div>
     </header>
 
-    <!-- Dedication Header -->
-    <section class="dedication-header" aria-labelledby="deceased-title">
-      <div class="basmala" aria-label="بسم الله الرحمن الرحيم">﷽</div>
-      <p class="sadaqa-tag">صَدَقَةٌ جَارِيَةٌ عَلَى رُوحِ</p>
-      <h1 class="deceased-name" id="deceased-title">يوسف إبراهيم محمد البحراوي</h1>
-      <p class="prayer-sentence">رَحِمَهُ اللَّهُ وَغَفَرَ لَهُ وَأَسْكَنَهُ فَسِيحَ جَنَّاتِهِ</p>
-      
-      <!-- Ornamental Gold Divider -->
-      <div class="ornamental-divider" aria-hidden="true">
-        <span class="divider-line"></span>
-        <span class="divider-symbol">۞</span>
-        <span class="divider-line"></span>
-      </div>
-    </section>
-
-    <!-- SECTION 1: Electronic Tasbeeh -->
-    <section class="section-card tasbeeh-container" aria-labelledby="tasbeeh-heading">
-      <div class="section-title-wrap" style="width: 100%;">
-        <span class="section-icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <circle cx="12" cy="12" r="9" stroke-width="2"/>
-            <path d="M12 7v5l3 3" stroke-width="2" stroke-linecap="round"/>
-          </svg>
-        </span>
-        <h2 class="section-title" id="tasbeeh-heading">المسبحة الإلكترونية</h2>
+    <!-- HEADER: FLANKED BASMALA + DEDICATION (EXACT SCREENSHOT LAYOUT) -->
+    <header class="hero-header" aria-labelledby="deceased-name-title">
+      <!-- Flanked Basmala -->
+      <div class="basmala-flanked" aria-label="بسم الله الرحمن الرحيم">
+        <span class="flank-line" aria-hidden="true"></span>
+        <span class="basmala-calligraphy">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+        <span class="flank-line" aria-hidden="true"></span>
       </div>
 
-      <!-- Dhikr Category Chips -->
-      <label class="chips-label" id="chips-group-label">اختر الذِّكْر:</label>
-      <div class="chips-scroll" role="radiogroup" aria-labelledby="chips-group-label" id="dhikr-chips-container">
-        <!-- Injected via JavaScript for state preservation -->
+      <!-- Subtitle in Mint Green -->
+      <p class="sadaqa-subheading">صدقة جارية على روح</p>
+
+      <!-- Father's Name in Large Crisp White -->
+      <h1 class="father-name" id="deceased-name-title">يوسف إبراهيم محمد البحراوي</h1>
+
+      <!-- Prayer in Soft Muted Tone -->
+      <p class="rahmah-subtext">رحمه الله وغفر له وأسكنه فسيح جناته</p>
+    </header>
+
+    <!-- SECTION 1: ELECTRONIC TASBEEH (EXACT SCREENSHOT MATCH) -->
+    <section class="tasbeeh-card" aria-labelledby="tasbeeh-section-title">
+      <h2 class="card-title-gold" id="tasbeeh-section-title">السبحة الإلكترونية</h2>
+
+      <!-- Chips: Wrapped Centered Pills (Row 1 & Row 2) -->
+      <div class="chips-flex-wrap" role="radiogroup" aria-label="اختيار الذكر" id="chips-group">
+        <!-- Rendered by JavaScript for state preservation -->
       </div>
 
-      <!-- Current Selected Dhikr Card -->
-      <div class="current-dhikr-display">
-        <p class="current-dhikr-text" id="selected-dhikr-text" aria-live="polite">سُبْحَانَ اللَّهِ</p>
-        <div class="counter-display-badge">
-          <span>مرات التسبيح:</span>
-          <span class="counter-number" id="current-count-display" aria-live="polite">٠</span>
-        </div>
+      <!-- Selected Dhikr in Soft Mint Green Calligraphic Style -->
+      <div class="active-dhikr-large" id="active-dhikr-label" aria-live="polite">
+        سُبْحَانَ اللَّهِ
       </div>
 
-      <!-- Big Tap Button -->
-      <div class="tasbeeh-btn-wrap">
-        <button class="tasbeeh-btn" id="tasbeeh-tap-btn" type="button" aria-label="سبّح واضغط لزيادة العداد">
-          <span class="tasbeeh-btn-label">سَبِّحْ</span>
-          <span class="tasbeeh-btn-sub">انقر للتسبيح</span>
+      <!-- Big Number Counter (Arabic-Indic Numerals: ١, ٢, ...) -->
+      <div class="counter-hero-number" id="counter-num-display" aria-live="polite">
+        ٠
+      </div>
+
+      <!-- Big Round Tap Button (190px, gold ring, emerald gradient) -->
+      <div class="tap-btn-wrap">
+        <button class="tap-btn-master" id="tasbeeh-tap-btn" type="button" aria-label="سبّح">
+          <span class="tap-btn-text">سبّح</span>
+          <span class="tap-btn-sub">انقر للتسبيح</span>
         </button>
       </div>
 
-      <!-- Controls & Lifetime Device Counter -->
-      <div class="tasbeeh-controls-row">
-        <div class="total-stat">
-          <span class="stat-label">إجمالي التسبيح على هذا الجهاز</span>
-          <span class="stat-value" id="lifetime-count-display" aria-live="polite">٠</span>
+      <!-- Lifetime Count & Reset Current Bar -->
+      <div class="tasbeeh-footer-bar">
+        <div class="lifetime-stat">
+          <span class="lifetime-stat-label">إجمالي التسبيح على هذا الجهاز</span>
+          <span class="lifetime-stat-num" id="grand-total-display">٠</span>
         </div>
-        
-        <button class="btn-secondary" id="reset-current-btn" type="button" aria-label="تصفير عداد الذكر الحالي">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+        <button class="reset-action-btn" id="reset-dhikr-btn" type="button" aria-label="تصفير عداد الذكر الحالي">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M3 12a9 9 0 109-9 9.75 9.75 0 00-6.74 2.74L3 8"/>
             <path d="M3 3v5h5"/>
           </svg>
@@ -1104,23 +979,18 @@
       </div>
     </section>
 
-    <!-- SECTION 2: Duas for the Deceased Father -->
-    <section class="section-card" aria-labelledby="duas-heading">
+    <!-- SECTION 2: DUAS FOR THE DECEASED FATHER -->
+    <section class="section-container" aria-labelledby="duas-section-title">
       <div class="section-title-wrap">
-        <span class="section-icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke-width="1.8"/>
-          </svg>
-        </span>
-        <h2 class="section-title" id="duas-heading">أدعية للمتوفى (لوالدي رحمه الله)</h2>
+        <h2 id="duas-section-title">أدعية للمتوفى (لوالدي رحمه الله)</h2>
       </div>
 
-      <div class="dua-list">
+      <div class="dua-cards-list">
         <!-- Dua 1 -->
-        <article class="dua-card">
-          <p class="dua-card-text">اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ.</p>
-          <div class="dua-card-footer">
-            <button class="amin-btn" onclick="toggleAmin(this)" aria-label="قل آمين على هذا الدعاء">
+        <article class="dua-card-box">
+          <p class="dua-text-content">اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ، وَعَافِهِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ وَوَسِّعْ مُدْخَلَهُ، وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ.</p>
+          <div class="dua-card-action">
+            <button class="amin-prayer-btn" onclick="toggleAminBtn(this)" aria-label="قل آمين">
               <span aria-hidden="true">🤲</span>
               <span>آمِين يَا رَبّ</span>
             </button>
@@ -1128,10 +998,10 @@
         </article>
 
         <!-- Dua 2 -->
-        <article class="dua-card">
-          <p class="dua-card-text">اللَّهُمَّ اجْعَلْ قَبْرَهُ رَوْضَةً مِنْ رِيَاضِ الْجَنَّةِ، وَلَا تَجْعَلْهُ حُفْرَةً مِنْ حُفَرِ النَّارِ.</p>
-          <div class="dua-card-footer">
-            <button class="amin-btn" onclick="toggleAmin(this)" aria-label="قل آمين على هذا الدعاء">
+        <article class="dua-card-box">
+          <p class="dua-text-content">اللَّهُمَّ اجْعَلْ قَبْرَهُ رَوْضَةً مِنْ رِيَاضِ الْجَنَّةِ، وَلَا تَجْعَلْهُ حُفْرَةً مِنْ حُفَرِ النَّارِ.</p>
+          <div class="dua-card-action">
+            <button class="amin-prayer-btn" onclick="toggleAminBtn(this)" aria-label="قل آمين">
               <span aria-hidden="true">🤲</span>
               <span>آمِين يَا رَبّ</span>
             </button>
@@ -1139,10 +1009,10 @@
         </article>
 
         <!-- Dua 3 -->
-        <article class="dua-card">
-          <p class="dua-card-text">اللَّهُمَّ ثَبِّتْهُ عِنْدَ السُّؤَالِ، وَآنِسْ وَحْشَتَهُ، وَأَبْدِلْهُ دَارًا خَيْرًا مِنْ دَارِهِ وَأَهْلًا خَيْرًا مِنْ أَهْلِهِ.</p>
-          <div class="dua-card-footer">
-            <button class="amin-btn" onclick="toggleAmin(this)" aria-label="قل آمين على هذا الدعاء">
+        <article class="dua-card-box">
+          <p class="dua-text-content">اللَّهُمَّ ثَبِّتْهُ عِنْدَ السُّؤَالِ، وَآنِسْ وَحْشَتَهُ، وَأَبْدِلْهُ دَارًا خَيْرًا مِنْ دَارِهِ وَأَهْلًا خَيْرًا مِنْ أَهْلِهِ.</p>
+          <div class="dua-card-action">
+            <button class="amin-prayer-btn" onclick="toggleAminBtn(this)" aria-label="قل آمين">
               <span aria-hidden="true">🤲</span>
               <span>آمِين يَا رَبّ</span>
             </button>
@@ -1150,10 +1020,10 @@
         </article>
 
         <!-- Dua 4 -->
-        <article class="dua-card">
-          <p class="dua-card-text">اللَّهُمَّ اجْمَعْنَا بِهِ فِي جَنَّاتِ النَّعِيمِ، فِي مَقْعَدِ صِدْقٍ عِنْدَ مَلِيكٍ مُقْتَدِرٍ.</p>
-          <div class="dua-card-footer">
-            <button class="amin-btn" onclick="toggleAmin(this)" aria-label="قل آمين على هذا الدعاء">
+        <article class="dua-card-box">
+          <p class="dua-text-content">اللَّهُمَّ اجْمَعْنَا بِهِ فِي جَنَّاتِ النَّعِيمِ، فِي مَقْعَدِ صِدْقٍ عِنْدَ مَلِيكٍ مُقْتَدِرٍ.</p>
+          <div class="dua-card-action">
+            <button class="amin-prayer-btn" onclick="toggleAminBtn(this)" aria-label="قل آمين">
               <span aria-hidden="true">🤲</span>
               <span>آمِين يَا رَبّ</span>
             </button>
@@ -1162,141 +1032,156 @@
       </div>
     </section>
 
-    <!-- SECTION 3: Morning and Evening Adhkar -->
-    <section class="section-card" aria-labelledby="adhkar-heading">
+    <!-- SECTION 3: ADHKAR (MORNING & EVENING) -->
+    <section class="section-container" aria-labelledby="adhkar-section-title">
       <div class="section-title-wrap">
-        <span class="section-icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <circle cx="12" cy="12" r="5" stroke-width="2"/>
-            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke-width="2"/>
-          </svg>
-        </span>
-        <h2 class="section-title" id="adhkar-heading">أذكار الصباح والمساء</h2>
+        <h2 id="adhkar-section-title">أذكار الصباح والمساء</h2>
       </div>
 
-      <div class="adhkar-list">
+      <div class="adhkar-cards-list">
         <!-- Adhkar 1: 7 times -->
-        <article class="adhkar-card" data-target="7">
-          <div class="adhkar-header-row">
-            <span class="repeat-badge">
+        <article class="adhkar-card-box">
+          <div class="adhkar-top-row">
+            <span class="repeat-tag">
               <span aria-hidden="true">✦</span>
               <span>٧ مَرَّاتٍ</span>
             </span>
           </div>
-          <p class="adhkar-text">حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ</p>
-          <div class="adhkar-interactive-row">
-            <button class="adhkar-count-btn" onclick="handleCardStep(this, 7)" aria-label="إكمال التكرار (7 مرات)">
-              <span class="step-num">٠</span> / ٧
+          <p class="adhkar-verse-text">حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ</p>
+          <div class="adhkar-bottom-row">
+            <div class="adhkar-bar-track" aria-hidden="true">
+              <div class="adhkar-bar-fill" style="width: 0%;"></div>
+            </div>
+            <button class="adhkar-tap-counter" onclick="advanceStep(this, 7)" aria-label="إكمال 7 مرات">
+              <span class="step-num">٠ / ٧</span>
             </button>
           </div>
         </article>
 
         <!-- Adhkar 2: 3 times -->
-        <article class="adhkar-card" data-target="3">
-          <div class="adhkar-header-row">
-            <span class="repeat-badge">
+        <article class="adhkar-card-box">
+          <div class="adhkar-top-row">
+            <span class="repeat-tag">
               <span aria-hidden="true">✦</span>
               <span>٣ مَرَّاتٍ</span>
             </span>
           </div>
-          <p class="adhkar-text">بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ</p>
-          <div class="adhkar-interactive-row">
-            <button class="adhkar-count-btn" onclick="handleCardStep(this, 3)" aria-label="إكمال التكرار (3 مرات)">
-              <span class="step-num">٠</span> / ٣
+          <p class="adhkar-verse-text">بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ</p>
+          <div class="adhkar-bottom-row">
+            <div class="adhkar-bar-track" aria-hidden="true">
+              <div class="adhkar-bar-fill" style="width: 0%;"></div>
+            </div>
+            <button class="adhkar-tap-counter" onclick="advanceStep(this, 3)" aria-label="إكمال 3 مرات">
+              <span class="step-num">٠ / ٣</span>
             </button>
           </div>
         </article>
 
-        <!-- Adhkar 3: Once / Open -->
-        <article class="adhkar-card" data-target="10">
-          <div class="adhkar-header-row">
-            <span class="repeat-badge">
+        <!-- Adhkar 3: 10 times / Open -->
+        <article class="adhkar-card-box">
+          <div class="adhkar-top-row">
+            <span class="repeat-tag">
               <span aria-hidden="true">✦</span>
               <span>تَهْلِيلٌ وَتَوْحِيدٌ</span>
             </span>
           </div>
-          <p class="adhkar-text">لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ</p>
-          <div class="adhkar-interactive-row">
-            <button class="adhkar-count-btn" onclick="handleCardStep(this, 10)" aria-label="إكمال التكرار (10 مرات)">
-              <span class="step-num">٠</span> / ١٠
+          <p class="adhkar-verse-text">لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ</p>
+          <div class="adhkar-bottom-row">
+            <div class="adhkar-bar-track" aria-hidden="true">
+              <div class="adhkar-bar-fill" style="width: 0%;"></div>
+            </div>
+            <button class="adhkar-tap-counter" onclick="advanceStep(this, 10)" aria-label="إكمال 10 مرات">
+              <span class="step-num">٠ / ١٠</span>
             </button>
           </div>
         </article>
 
         <!-- Adhkar 4: 100 times -->
-        <article class="adhkar-card" data-target="100">
-          <div class="adhkar-header-row">
-            <span class="repeat-badge">
+        <article class="adhkar-card-box">
+          <div class="adhkar-top-row">
+            <span class="repeat-tag">
               <span aria-hidden="true">✦</span>
               <span>١٠٠ مَرَّةٍ</span>
             </span>
           </div>
-          <p class="adhkar-text">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ</p>
-          <div class="adhkar-interactive-row">
-            <button class="adhkar-count-btn" onclick="handleCardStep(this, 100)" aria-label="إكمال التكرار (100 مرة)">
-              <span class="step-num">٠</span> / ١٠٠
+          <p class="adhkar-verse-text">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ</p>
+          <div class="adhkar-bottom-row">
+            <div class="adhkar-bar-track" aria-hidden="true">
+              <div class="adhkar-bar-fill" style="width: 0%;"></div>
+            </div>
+            <button class="adhkar-tap-counter" onclick="advanceStep(this, 100)" aria-label="إكمال 100 مرة">
+              <span class="step-num">٠ / ١٠٠</span>
             </button>
           </div>
         </article>
 
         <!-- Adhkar 5: 100 times a day -->
-        <article class="adhkar-card" data-target="100">
-          <div class="adhkar-header-row">
-            <span class="repeat-badge">
+        <article class="adhkar-card-box">
+          <div class="adhkar-top-row">
+            <span class="repeat-tag">
               <span aria-hidden="true">✦</span>
               <span>١٠٠ مَرَّةٍ فِي الْيَوْمِ</span>
             </span>
           </div>
-          <p class="adhkar-text">أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ</p>
-          <div class="adhkar-interactive-row">
-            <button class="adhkar-count-btn" onclick="handleCardStep(this, 100)" aria-label="إكمال التكرار (100 مرة)">
-              <span class="step-num">٠</span> / ١٠٠
+          <p class="adhkar-verse-text">أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ</p>
+          <div class="adhkar-bottom-row">
+            <div class="adhkar-bar-track" aria-hidden="true">
+              <div class="adhkar-bar-fill" style="width: 0%;"></div>
+            </div>
+            <button class="adhkar-tap-counter" onclick="advanceStep(this, 100)" aria-label="إكمال 100 مرة">
+              <span class="step-num">٠ / ١٠٠</span>
             </button>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- SECTION 4: Holy Quran Verses (Uthmani Script with full tashkeel) -->
-    <section class="section-card" aria-labelledby="quran-heading">
+    <!-- SECTION 4: HOLY QURAN VERSES (EXACT UTHMANI TEXT) -->
+    <section class="section-container" aria-labelledby="quran-section-title">
       <div class="section-title-wrap">
-        <span class="section-icon" aria-hidden="true">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke-width="2"/>
-            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke-width="2"/>
-          </svg>
-        </span>
-        <h2 class="section-title" id="quran-heading">آياتٌ مِنَ الذِّكْرِ الْحَكِيمِ</h2>
+        <h2 id="quran-section-title">آياتٌ مِنَ الذِّكْرِ الْحَكِيمِ</h2>
       </div>
 
       <!-- Surat Al-Ikhlas -->
-      <article class="quran-verse-card" aria-label="سورة الإخلاص بالرسم العثماني">
-        <span class="quran-badge">سُورَةُ الإِخْلَاصِ</span>
-        <div class="basmala" style="font-size: 1.5rem; margin-bottom: 0.8rem;">﷽</div>
-        <p class="quran-verse-text">
-          قُلْ هُوَ اللَّهُ أَحَدٌ <span class="ayah-end">﴿١﴾</span>
-          اللَّهُ الصَّمَدُ <span class="ayah-end">﴿٢﴾</span>
-          لَمْ يَلِدْ وَلَمْ يُولَدْ <span class="ayah-end">﴿٣﴾</span>
-          وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ <span class="ayah-end">﴿٤﴾</span>
+      <article class="mushaf-styled-card" aria-label="سورة الإخلاص">
+        <div class="surah-ornament-pill">
+          <span aria-hidden="true">۞</span>
+          <span>سُورَةُ الإِخْلَاصِ</span>
+          <span aria-hidden="true">۞</span>
+        </div>
+        <div class="basmala-flanked" style="max-width: 320px; margin-bottom: 1rem;">
+          <span class="flank-line"></span>
+          <span class="basmala-calligraphy" style="font-size: 1.65rem;">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</span>
+          <span class="flank-line"></span>
+        </div>
+        <p class="quran-ayahs-body">
+          قُلْ هُوَ اللَّهُ أَحَدٌ <span class="ayah-ornament-num">﴿١﴾</span>
+          اللَّهُ الصَّمَدُ <span class="ayah-ornament-num">﴿٢﴾</span>
+          لَمْ يَلِدْ وَلَمْ يُولَدْ <span class="ayah-ornament-num">﴿٣﴾</span>
+          وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ <span class="ayah-ornament-num">﴿٤﴾</span>
         </p>
       </article>
 
       <!-- Ayat Al-Kursi -->
-      <article class="quran-verse-card" aria-label="آية الكرسي بالرسم العثماني">
-        <span class="quran-badge">آيَةُ الْكُرْسِيِّ (سُورَةُ الْبَقَرَةِ: ٢٥٥)</span>
-        <p class="quran-verse-text">
+      <article class="mushaf-styled-card" aria-label="آية الكرسي">
+        <div class="surah-ornament-pill">
+          <span aria-hidden="true">۞</span>
+          <span>آيَةُ الْكُرْسِيِّ (سُورَةُ الْبَقَرَةِ: ٢٥٥)</span>
+          <span aria-hidden="true">۞</span>
+        </div>
+        <p class="quran-ayahs-body">
           اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ
         </p>
       </article>
     </section>
 
-    <!-- SECTION 5: Share Button -->
-    <section class="share-section-card" aria-labelledby="share-heading">
-      <h2 class="section-title" id="share-heading" style="margin-bottom: 0.6rem;">انشر تؤجر</h2>
-      <p class="share-desc">
+    <!-- SECTION 5: SHARE BUTTON -->
+    <section class="share-container-card" aria-labelledby="share-section-title">
+      <h2 class="card-title-gold" id="share-section-title" style="margin-bottom: 0.65rem;">انشر تُؤجَر</h2>
+      <p class="share-desc-text">
         الدَّالُّ عَلَى الْخَيْرِ كَفَاعِلِهِ؛ شَارِكْ هذِهِ الصَّفْحَةَ مَعَ الأَهْلِ وَالأَصْدِقَاءِ لِيَكُونَ لَكَ وَلِلْمُتَوَفَّى أَجْرُ التَّسْبِيحِ وَالدُّعَاءِ.
       </p>
-      <button class="share-btn" id="share-action-btn" type="button" aria-label="مشاركة رابط الصدقة الجارية">
+      <button class="share-submit-btn" id="share-action-btn" type="button" aria-label="مشاركة رابط الصفحة">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
         </svg>
@@ -1304,139 +1189,115 @@
       </button>
     </section>
 
-    <!-- Toast Notification for Share / Copy feedback -->
-    <div id="toast" class="toast-notice" role="status" aria-live="polite">
-      تم نسخ الرابط ورسالة الدعاء بنجاح، جزاكم الله خيراً
-    </div>
-
-    <!-- SECTION 6: Footer -->
-    <footer class="site-footer" role="contentinfo">
-      <div class="ornamental-divider" style="margin-bottom: 1.25rem;" aria-hidden="true">
-        <span class="divider-line"></span>
-        <span class="divider-symbol">۞</span>
-        <span class="divider-line"></span>
+    <!-- SECTION 6: FOOTER -->
+    <footer class="footer-card" role="contentinfo">
+      <div class="basmala-flanked" style="max-width: 260px; margin-bottom: 1.25rem;">
+        <span class="flank-line"></span>
+        <span style="color: var(--gold-primary); font-size: 1.15rem;">۞</span>
+        <span class="flank-line"></span>
       </div>
 
-      <blockquote class="hadith-quote">
+      <blockquote class="hadith-quote-box">
         «إِذَا مَاتَ ابْنُ آدَمَ انْقَطَعَ عَمَلُهُ إِلَّا مِنْ ثَلَاثٍ: <mark>صَدَقَةٍ جَارِيَةٍ</mark>، أَوْ عِلْمٍ يُنْتَفَعُ بِهِ، أَوْ وَلَدٍ صَالِحٍ يَدْعُو لَهُ»
       </blockquote>
 
-      <p class="footer-final-dua">اللَّهُمَّ اجْعَلْ هَٰذَا الْعَمَلَ فِي مِيزَانِ حَسَنَاتِهِ</p>
-      <p class="footer-closing">نسألكم الفاتحة والدعاء لوالدي ولأموات المسلمين أجمعين</p>
+      <p class="closing-dua">اللَّهُمَّ اجْعَلْ هَٰذَا الْعَمَلَ فِي مِيزَانِ حَسَنَاتِهِ</p>
+      <p class="fatiha-subtext">نسألكم الفاتحة والدعاء لوالدي ولأموات المسلمين أجمعين</p>
     </footer>
+
+    <!-- Toast Notice -->
+    <div id="toast-msg" class="toast-pill" role="status" aria-live="polite">
+      تم نسخ الرابط ورسالة الدعاء بنجاح، جزاكم الله خيراً
+    </div>
 
   </main>
 
   <script>
-    /* -------------------------------------------------------------
-       Self-contained JavaScript Logic
-       - Arabic-Indic numeral conversion
-       - Resilient localStorage with fallback
-       - Tasbeeh counter state management
-       - Web Audio synthesized gentle click sound
-       - Native vibration feedback
-       - Navigator share / Clipboard fallback
-       - Theme toggle (System + Local preference)
-       ------------------------------------------------------------- */
+    /* ==========================================================================
+       INLINE JS: TASBEEH LOGIC, SOUND, VIBRATION, LOCALSTORAGE, SHARE
+       ========================================================================== */
 
-    // Arabic-Indic Numerals Map (0 -> ٠, etc.)
-    const ARABIC_INDIC_DIGITS = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
-    function toArabicDigits(num) {
-      if (num === null || num === undefined) return '٠';
-      return String(num).replace(/[0-9]/g, function(d) {
-        return ARABIC_INDIC_DIGITS[parseInt(d, 10)];
-      });
+    // Arabic-Indic Digits Converter (0 -> ٠, 1 -> ١, ...)
+    const AR_DIGITS = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    function toArabicDigits(n) {
+      if (n === null || n === undefined) return '٠';
+      return String(n).replace(/[0-9]/g, d => AR_DIGITS[parseInt(d, 10)]);
     }
 
-    // Safe localStorage abstraction
-    const storage = {
-      isAvailable: (function() {
+    // Safe Storage Wrapper
+    const store = {
+      isOk: (function() {
         try {
-          const testKey = '__test_storage__';
-          localStorage.setItem(testKey, '1');
-          localStorage.removeItem(testKey);
+          const t = '__t__';
+          localStorage.setItem(t, '1');
+          localStorage.removeItem(t);
           return true;
         } catch (e) {
           return false;
         }
       })(),
-      get: function(key, defaultValue) {
-        if (!this.isAvailable) return defaultValue;
+      get: function(key, fallback) {
+        if (!this.isOk) return fallback;
         try {
-          const val = localStorage.getItem(key);
-          return val !== null ? JSON.parse(val) : defaultValue;
+          const v = localStorage.getItem(key);
+          return v !== null ? JSON.parse(v) : fallback;
         } catch (e) {
-          return defaultValue;
+          return fallback;
         }
       },
-      set: function(key, value) {
-        if (!this.isAvailable) return;
+      set: function(key, val) {
+        if (!this.isOk) return;
         try {
-          localStorage.setItem(key, JSON.stringify(value));
-        } catch (e) {
-          console.warn('Storage quota exceeded or restricted:', e);
-        }
+          localStorage.setItem(key, JSON.stringify(val));
+        } catch (e) {}
       }
     };
 
-    // Synthesized Web Audio click generator (No external MP3 files needed)
-    let audioCtx = null;
-    let isSoundEnabled = storage.get('sound_enabled', true);
+    // Synthesized Sound (Gentle Audio Tap)
+    let audioContext = null;
+    let soundEnabled = store.get('tasbeeh_sound', true);
 
-    function initAudio() {
-      if (!audioCtx && (window.AudioContext || window.webkitAudioContext)) {
-        try {
-          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
-          audioCtx = new AudioContextClass();
-        } catch (e) {
-          // AudioContext not supported or restricted
-        }
-      }
-      if (audioCtx && audioCtx.state === 'suspended') {
-        audioCtx.resume();
-      }
-    }
-
-    function playSoftClick() {
-      if (!isSoundEnabled) return;
+    function playClickSound() {
+      if (!soundEnabled) return;
       try {
-        initAudio();
-        if (!audioCtx) return;
-        
-        const osc = audioCtx.createOscillator();
-        const gain = audioCtx.createGain();
+        if (!audioContext && (window.AudioContext || window.webkitAudioContext)) {
+          const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+          audioContext = new AudioContextClass();
+        }
+        if (audioContext && audioContext.state === 'suspended') {
+          audioContext.resume();
+        }
+        if (!audioContext) return;
 
-        // Warm subtle droplet / woodblock tap frequency
+        const osc = audioContext.createOscillator();
+        const gain = audioContext.createGain();
+
         osc.type = 'sine';
-        osc.frequency.setValueAtTime(540, audioCtx.currentTime);
-        osc.frequency.exponentialRampToValueAtTime(120, audioCtx.currentTime + 0.04);
+        osc.frequency.setValueAtTime(560, audioContext.currentTime);
+        osc.frequency.exponentialRampToValueAtTime(130, audioContext.currentTime + 0.04);
 
-        gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
-        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.04);
+        gain.gain.setValueAtTime(0.22, audioContext.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.04);
 
         osc.connect(gain);
-        gain.connect(audioCtx.destination);
+        gain.connect(audioContext.destination);
 
         osc.start();
-        osc.stop(audioCtx.currentTime + 0.045);
-      } catch (e) {
-        // Silently continue if audio fails
-      }
+        osc.stop(audioContext.currentTime + 0.045);
+      } catch (e) {}
     }
 
-    // Haptic vibration feedback
-    function triggerHaptic() {
+    // Vibration Haptics
+    function vibrateDevice(ms = 20) {
       if ('vibrate' in navigator) {
         try {
-          navigator.vibrate(22);
-        } catch (e) {
-          // Ignore
-        }
+          navigator.vibrate(ms);
+        } catch (e) {}
       }
     }
 
-    // List of Dhikr items for the Electronic Tasbeeh
-    const DHIKR_ITEMS = [
+    // Dhikr Collection (Exact 7 Adhkar)
+    const ADHKAR_LIST = [
       { id: 'subhanallah', text: 'سُبْحَانَ اللَّهِ' },
       { id: 'alhamdulillah', text: 'الْحَمْدُ لِلَّهِ' },
       { id: 'la_ilaha_illallah', text: 'لَا إِلَٰهَ إِلَّا اللَّهُ' },
@@ -1446,22 +1307,20 @@
       { id: 'subhan_wa_bihamdihi', text: 'سُبْحَانَ اللَّهِ وَبِحَمْدِهِ' }
     ];
 
-    // Initialize State
-    let activeDhikrIndex = storage.get('active_dhikr_idx', 0);
-    if (activeDhikrIndex < 0 || activeDhikrIndex >= DHIKR_ITEMS.length) activeDhikrIndex = 0;
+    // State
+    let currentIdx = store.get('selected_idx', 0);
+    if (currentIdx < 0 || currentIdx >= ADHKAR_LIST.length) currentIdx = 0;
 
-    // Load counts per dhikr
-    let dhikrCounts = storage.get('dhikr_counts', {});
-    // Total device counter
-    let lifetimeTotal = storage.get('lifetime_count', 0);
+    let countersMap = store.get('counters_map', {});
+    let grandLifetimeTotal = store.get('grand_lifetime_total', 0);
 
     // DOM Elements
-    const chipsContainer = document.getElementById('dhikr-chips-container');
-    const selectedDhikrText = document.getElementById('selected-dhikr-text');
-    const currentCountDisplay = document.getElementById('current-count-display');
-    const lifetimeCountDisplay = document.getElementById('lifetime-count-display');
+    const chipsGroup = document.getElementById('chips-group');
+    const activeDhikrLabel = document.getElementById('active-dhikr-label');
+    const counterNumDisplay = document.getElementById('counter-num-display');
+    const grandTotalDisplay = document.getElementById('grand-total-display');
     const tasbeehTapBtn = document.getElementById('tasbeeh-tap-btn');
-    const resetCurrentBtn = document.getElementById('reset-current-btn');
+    const resetDhikrBtn = document.getElementById('reset-dhikr-btn');
     const audioToggleBtn = document.getElementById('audio-toggle-btn');
     const audioIconOn = document.getElementById('audio-icon-on');
     const audioIconOff = document.getElementById('audio-icon-off');
@@ -1469,297 +1328,277 @@
     const themeIconSun = document.getElementById('theme-icon-sun');
     const themeIconMoon = document.getElementById('theme-icon-moon');
     const shareActionBtn = document.getElementById('share-action-btn');
-    const toastNotice = document.getElementById('toast');
+    const toastMsg = document.getElementById('toast-msg');
 
-    // Render Dhikr Chips
-    function renderChips() {
-      chipsContainer.innerHTML = '';
-      DHIKR_ITEMS.forEach(function(item, idx) {
-        const chip = document.createElement('button');
-        chip.type = 'button';
-        chip.className = 'dhikr-chip' + (idx === activeDhikrIndex ? ' active' : '');
-        chip.role = 'radio';
-        chip.setAttribute('aria-checked', idx === activeDhikrIndex ? 'true' : 'false');
-        chip.textContent = item.text;
-        
-        chip.addEventListener('click', function() {
-          selectDhikr(idx);
-          // Scroll active chip into view smoothly
-          chip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    // Render Chips
+    function renderDhikrChips() {
+      chipsGroup.innerHTML = '';
+      ADHKAR_LIST.forEach((item, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'dhikr-chip-item' + (idx === currentIdx ? ' active' : '');
+        btn.role = 'radio';
+        btn.setAttribute('aria-checked', idx === currentIdx ? 'true' : 'false');
+        btn.textContent = item.text;
+
+        btn.addEventListener('click', () => {
+          switchDhikr(idx);
         });
 
-        chipsContainer.appendChild(chip);
+        chipsGroup.appendChild(btn);
       });
     }
 
-    // Select Active Dhikr
-    function selectDhikr(idx) {
-      activeDhikrIndex = idx;
-      storage.set('active_dhikr_idx', activeDhikrIndex);
+    // Switch Selected Dhikr
+    function switchDhikr(idx) {
+      currentIdx = idx;
+      store.set('selected_idx', currentIdx);
 
-      const activeItem = DHIKR_ITEMS[activeDhikrIndex];
-      selectedDhikrText.textContent = activeItem.text;
+      const item = ADHKAR_LIST[currentIdx];
+      activeDhikrLabel.textContent = item.text;
 
-      const currentCount = dhikrCounts[activeItem.id] || 0;
-      currentCountDisplay.textContent = toArabicDigits(currentCount);
+      const currentCount = countersMap[item.id] || 0;
+      counterNumDisplay.textContent = toArabicDigits(currentCount);
 
-      // Update chip classes
-      const allChips = chipsContainer.querySelectorAll('.dhikr-chip');
-      allChips.forEach(function(c, i) {
-        const isCurrent = i === activeDhikrIndex;
-        c.classList.toggle('active', isCurrent);
-        c.setAttribute('aria-checked', isCurrent ? 'true' : 'false');
+      const chips = chipsGroup.querySelectorAll('.dhikr-chip-item');
+      chips.forEach((c, i) => {
+        const isActive = i === currentIdx;
+        c.classList.toggle('active', isActive);
+        c.setAttribute('aria-checked', isActive ? 'true' : 'false');
       });
     }
 
-    // Increment Counter
-    function incrementTasbeeh(e) {
-      const activeItem = DHIKR_ITEMS[activeDhikrIndex];
-      const newDhikrCount = (dhikrCounts[activeItem.id] || 0) + 1;
-      dhikrCounts[activeItem.id] = newDhikrCount;
-      lifetimeTotal += 1;
+    // Tap Tasbeeh Button
+    function tapCounter(e) {
+      const item = ADHKAR_LIST[currentIdx];
+      const newCount = (countersMap[item.id] || 0) + 1;
+      countersMap[item.id] = newCount;
+      grandLifetimeTotal += 1;
 
       // Update UI
-      currentCountDisplay.textContent = toArabicDigits(newDhikrCount);
-      lifetimeCountDisplay.textContent = toArabicDigits(lifetimeTotal);
+      counterNumDisplay.textContent = toArabicDigits(newCount);
+      grandTotalDisplay.textContent = toArabicDigits(grandLifetimeTotal);
 
-      // Persist in localStorage
-      storage.set('dhikr_counts', dhikrCounts);
-      storage.set('lifetime_count', lifetimeTotal);
+      // Save
+      store.set('counters_map', countersMap);
+      store.set('grand_lifetime_total', grandLifetimeTotal);
 
-      // Feedback: Haptic vibration & sound
-      triggerHaptic();
-      playSoftClick();
+      // Haptic & Sound
+      vibrateDevice(22);
+      playClickSound();
 
-      // Button Ripple visual effect
-      createRipple(e);
+      // Tap animation
+      tasbeehTapBtn.classList.add('pressed');
+      setTimeout(() => tasbeehTapBtn.classList.remove('pressed'), 120);
+
+      // Number pop
+      counterNumDisplay.style.transform = 'scale(1.08)';
+      setTimeout(() => counterNumDisplay.style.transform = 'scale(1)', 100);
+
+      // Ripple effect
+      triggerRipple(e);
     }
 
-    // Ripple visual animation inside the big button
-    function createRipple(e) {
-      if (!tasbeehTapBtn) return;
-      const circle = document.createElement('span');
-      circle.classList.add('ripple');
-
+    function triggerRipple(e) {
+      const ripple = document.createElement('span');
+      ripple.className = 'ripple';
       const rect = tasbeehTapBtn.getBoundingClientRect();
       const diameter = Math.max(rect.width, rect.height);
       const radius = diameter / 2;
 
-      let clientX = rect.left + rect.width / 2;
-      let clientY = rect.top + rect.height / 2;
+      let cx = rect.left + rect.width / 2;
+      let cy = rect.top + rect.height / 2;
 
       if (e && e.clientX && e.clientY) {
-        clientX = e.clientX;
-        clientY = e.clientY;
+        cx = e.clientX;
+        cy = e.clientY;
       }
 
-      circle.style.width = circle.style.height = diameter + 'px';
-      circle.style.left = (clientX - rect.left - radius) + 'px';
-      circle.style.top = (clientY - rect.top - radius) + 'px';
+      ripple.style.width = ripple.style.height = `${diameter}px`;
+      ripple.style.left = `${cx - rect.left - radius}px`;
+      ripple.style.top = `${cy - rect.top - radius}px`;
 
-      const existingRipple = tasbeehTapBtn.querySelector('.ripple');
-      if (existingRipple) {
-        existingRipple.remove();
-      }
+      const prev = tasbeehTapBtn.querySelector('.ripple');
+      if (prev) prev.remove();
 
-      tasbeehTapBtn.appendChild(circle);
-
-      setTimeout(function() {
-        circle.remove();
-      }, 500);
+      tasbeehTapBtn.appendChild(ripple);
+      setTimeout(() => ripple.remove(), 500);
     }
 
     // Reset Current Dhikr
-    function resetCurrentDhikr() {
-      const activeItem = DHIKR_ITEMS[activeDhikrIndex];
-      const count = dhikrCounts[activeItem.id] || 0;
+    function resetCurrentCounter() {
+      const item = ADHKAR_LIST[currentIdx];
+      const count = countersMap[item.id] || 0;
       if (count === 0) return;
 
-      const confirmed = window.confirm('هل تريد تصفير عداد (' + activeItem.text + ')؟');
-      if (confirmed) {
-        dhikrCounts[activeItem.id] = 0;
-        currentCountDisplay.textContent = toArabicDigits(0);
-        storage.set('dhikr_counts', dhikrCounts);
-        triggerHaptic();
+      const ok = window.confirm(`هل تريد تصفير عداد (${item.text})؟`);
+      if (ok) {
+        countersMap[item.id] = 0;
+        counterNumDisplay.textContent = toArabicDigits(0);
+        store.set('counters_map', countersMap);
+        vibrateDevice(30);
       }
     }
 
     // Sound Toggle
-    function updateAudioUI() {
-      if (isSoundEnabled) {
+    function syncAudioUI() {
+      if (soundEnabled) {
         audioIconOn.style.display = 'block';
         audioIconOff.style.display = 'none';
-        audioToggleBtn.setAttribute('aria-label', 'كتم الصوت');
+        audioToggleBtn.setAttribute('aria-label', 'كتم صوت التسبيح');
       } else {
         audioIconOn.style.display = 'none';
         audioIconOff.style.display = 'block';
-        audioToggleBtn.setAttribute('aria-label', 'تفعيل الصوت');
+        audioToggleBtn.setAttribute('aria-label', 'تفعيل صوت التسبيح');
       }
     }
 
-    audioToggleBtn.addEventListener('click', function() {
-      isSoundEnabled = !isSoundEnabled;
-      storage.set('sound_enabled', isSoundEnabled);
-      updateAudioUI();
-      if (isSoundEnabled) {
-        playSoftClick();
-      }
+    audioToggleBtn.addEventListener('click', () => {
+      soundEnabled = !soundEnabled;
+      store.set('tasbeeh_sound', soundEnabled);
+      syncAudioUI();
+      if (soundEnabled) playClickSound();
     });
 
-    // Theme Management (Light / Dark)
-    function applyTheme(theme) {
+    // Theme Toggle
+    function syncTheme(theme) {
       const root = document.documentElement;
       const themeMeta = document.getElementById('theme-color-meta');
 
-      if (theme === 'dark') {
-        root.setAttribute('data-theme', 'dark');
-        themeIconSun.style.display = 'block';
-        themeIconMoon.style.display = 'none';
-        if (themeMeta) themeMeta.setAttribute('content', '#081813');
-      } else if (theme === 'light') {
+      if (theme === 'light') {
         root.setAttribute('data-theme', 'light');
         themeIconSun.style.display = 'none';
         themeIconMoon.style.display = 'block';
-        if (themeMeta) themeMeta.setAttribute('content', '#0f3e2e');
+        if (themeMeta) themeMeta.setAttribute('content', '#f7f4ec');
       } else {
-        // System preference
+        // Dark theme (Default)
         root.removeAttribute('data-theme');
-        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        themeIconSun.style.display = isDark ? 'block' : 'none';
-        themeIconMoon.style.display = isDark ? 'none' : 'block';
-        if (themeMeta) themeMeta.setAttribute('content', isDark ? '#081813' : '#0f3e2e');
+        themeIconSun.style.display = 'block';
+        themeIconMoon.style.display = 'none';
+        if (themeMeta) themeMeta.setAttribute('content', '#061d15');
       }
     }
 
-    let savedTheme = storage.get('user_theme', 'auto');
-    applyTheme(savedTheme);
+    let savedTheme = store.get('app_theme', 'dark');
+    syncTheme(savedTheme);
 
-    themeToggleBtn.addEventListener('click', function() {
-      const currentActive = document.documentElement.getAttribute('data-theme');
-      let nextTheme;
-      if (!currentActive) {
-        const isSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        nextTheme = isSystemDark ? 'light' : 'dark';
-      } else if (currentActive === 'dark') {
-        nextTheme = 'light';
-      } else {
-        nextTheme = 'dark';
-      }
-      storage.set('user_theme', nextTheme);
-      applyTheme(nextTheme);
+    themeToggleBtn.addEventListener('click', () => {
+      const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+      const nextTheme = isLight ? 'dark' : 'light';
+      store.set('app_theme', nextTheme);
+      syncTheme(nextTheme);
     });
 
-    // Share / Clipboard Functionality
-    function showToast(message) {
-      toastNotice.textContent = message;
-      toastNotice.classList.add('show');
-      setTimeout(function() {
-        toastNotice.classList.remove('show');
-      }, 3500);
+    // Toast
+    function showToast(text) {
+      toastMsg.textContent = text;
+      toastMsg.classList.add('visible');
+      setTimeout(() => toastMsg.classList.remove('visible'), 3500);
     }
 
-    shareActionBtn.addEventListener('click', async function() {
+    // Share Handler
+    shareActionBtn.addEventListener('click', async () => {
       const shareData = {
         title: 'صدقة جارية على روح يوسف إبراهيم محمد البحراوي',
-        text: 'صدقة جارية على روح الوالد يوسف إبراهيم محمد البحراوي رحمه الله وغفر له. سبحة إلكترونية، أذكار وأدعية، شاركنا الأجر:',
+        text: 'صدقة جارية على روح الوالد يوسف إبراهيم محمد البحراوي رحمه الله وغفر له. سبحة إلكترونية وأدعية وأذكار، شاركونا الأجر عبر الرابط:',
         url: window.location.href
       };
 
       if (navigator.share) {
         try {
           await navigator.share(shareData);
-        } catch (err) {
-          // User cancelled or share failed; fall back to copy if not abort
-          if (err.name !== 'AbortError') {
-            copyToClipboard(shareData.text + '\n' + shareData.url);
+        } catch (e) {
+          if (e.name !== 'AbortError') {
+            clipboardCopy(`${shareData.text}\n${shareData.url}`);
           }
         }
       } else {
-        copyToClipboard(shareData.text + '\n' + shareData.url);
+        clipboardCopy(`${shareData.text}\n${shareData.url}`);
       }
     });
 
-    function copyToClipboard(textToCopy) {
+    function clipboardCopy(str) {
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(textToCopy).then(function() {
-          showToast('تم نسخ رابط الصفحة ورسالة الدعاء بنجاح، جزاكم الله خيراً');
-        }).catch(function() {
-          fallbackCopyText(textToCopy);
-        });
+        navigator.clipboard.writeText(str).then(() => {
+          showToast('تم نسخ الرابط ورسالة الدعاء بنجاح، جزاكم الله خيراً');
+        }).catch(() => fallbackCopy(str));
       } else {
-        fallbackCopyText(textToCopy);
+        fallbackCopy(str);
       }
     }
 
-    function fallbackCopyText(text) {
-      const textArea = document.createElement('textarea');
-      textArea.value = text;
-      textArea.style.position = 'fixed';
-      textArea.style.top = '-9999px';
-      document.body.appendChild(textArea);
-      textArea.focus();
-      textArea.select();
+    function fallbackCopy(str) {
+      const area = document.createElement('textarea');
+      area.value = str;
+      area.style.position = 'fixed';
+      area.style.top = '-9999px';
+      document.body.appendChild(area);
+      area.focus();
+      area.select();
       try {
         document.execCommand('copy');
-        showToast('تم نسخ رابط الصفحة ورسالة الدعاء بنجاح، جزاكم الله خيراً');
-      } catch (err) {
-        showToast('تعذر النسخ تلقائياً، يرجى نسخ الرابط من المتصفح');
+        showToast('تم نسخ الرابط ورسالة الدعاء بنجاح، جزاكم الله خيراً');
+      } catch (e) {
+        showToast('يرجى نسخ الرابط من شريط المتصفح');
       }
-      document.body.removeChild(textArea);
+      document.body.removeChild(area);
     }
 
-    // Amin button for Duas
-    window.toggleAmin = function(btn) {
-      triggerHaptic();
+    // Amin Button Toggle
+    window.toggleAminBtn = function(btn) {
+      vibrateDevice(20);
       btn.classList.toggle('hearted');
-      const isHearted = btn.classList.contains('hearted');
-      btn.innerHTML = isHearted 
+      const isHeart = btn.classList.contains('hearted');
+      btn.innerHTML = isHeart
         ? '<span aria-hidden="true">❤️</span><span>تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُم</span>'
         : '<span aria-hidden="true">🤲</span><span>آمِين يَا رَبّ</span>';
     };
 
-    // Interactive counter for Adhkar cards
-    window.handleCardStep = function(btn, targetMax) {
-      triggerHaptic();
-      playSoftClick();
+    // Adhkar Stepper
+    window.advanceStep = function(btn, maxVal) {
+      vibrateDevice(20);
+      playClickSound();
 
-      let currentStep = parseInt(btn.dataset.step || '0', 10);
-      currentStep = (currentStep + 1);
+      let step = parseInt(btn.dataset.step || '0', 10);
+      step += 1;
 
-      if (currentStep >= targetMax) {
-        currentStep = targetMax;
+      const card = btn.closest('.adhkar-card-box');
+      const fill = card ? card.querySelector('.adhkar-bar-fill') : null;
+
+      if (step >= maxVal) {
+        step = maxVal;
         btn.classList.add('done');
         btn.innerHTML = '<span>تم بحمد الله ✓</span>';
-        btn.dataset.step = targetMax;
+        if (fill) fill.style.width = '100%';
+        btn.dataset.step = maxVal;
       } else {
-        btn.dataset.step = currentStep;
-        const stepNumSpan = btn.querySelector('.step-num');
-        if (stepNumSpan) {
-          stepNumSpan.textContent = toArabicDigits(currentStep);
-        }
+        btn.dataset.step = step;
+        const pct = (step / maxVal) * 100;
+        if (fill) fill.style.width = `${pct}%`;
+        const label = btn.querySelector('.step-num');
+        if (label) label.textContent = `${toArabicDigits(step)} / ${toArabicDigits(maxVal)}`;
       }
     };
 
-    // Initialize Event Listeners
-    tasbeehTapBtn.addEventListener('click', incrementTasbeeh);
-    resetCurrentBtn.addEventListener('click', resetCurrentDhikr);
+    // Events
+    tasbeehTapBtn.addEventListener('click', tapCounter);
+    resetDhikrBtn.addEventListener('click', resetCurrentCounter);
 
-    // Keyboard Space / Enter support for Tasbeeh when button has focus
-    tasbeehTapBtn.addEventListener('keydown', function(e) {
+    // Keyboard (Space or Enter)
+    tasbeehTapBtn.addEventListener('keydown', (e) => {
       if (e.code === 'Space' || e.code === 'Enter') {
         e.preventDefault();
-        incrementTasbeeh(e);
+        tapCounter(e);
       }
     });
 
-    // Initial setup on page load
-    (function initPage() {
-      lifetimeCountDisplay.textContent = toArabicDigits(lifetimeTotal);
-      updateAudioUI();
-      renderChips();
-      selectDhikr(activeDhikrIndex);
+    // Initialize
+    (function startup() {
+      grandTotalDisplay.textContent = toArabicDigits(grandLifetimeTotal);
+      syncAudioUI();
+      renderDhikrChips();
+      switchDhikr(currentIdx);
     })();
   </script>
 </body>
 </html>
-
